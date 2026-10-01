@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #111;
+}
+
+
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px 0 20px;
+    border-bottom: 3px solid #555;
+}
+
+
+
+header h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    display: inline-block;
+    color: white ;
+    background-color: transparent;
+    text-decoration: none ;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+header nav a:hover {
+    background-color: white;
+    color: #222 !important;
+}
+
+main {
+    min-height: 570px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 35px;
+}
+
+
+.courses {
+    text-align: center;
+}
+
+
+.course {
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    min-height: 200px;
+    background-color: white;
+    border: 2px solid #444;
+    border-radius: 8px;
+    padding: 30px 25px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+
+.course h3 {
+    margin-bottom: 22px;
+}
+
+
+.course p {
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+
+.course:hover {
+    border-color: blue;
+}
+
+
+.course button {
+    background-color: white;
+    color: #222;
+    border: 1px solid #444;
+    padding: 8px 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.course button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 3px solid #555;
+}
